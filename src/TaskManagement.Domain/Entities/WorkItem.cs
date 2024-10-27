@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 using TaskManagement.Domain.Common;
-using TaskManagement.Domain.Enum;
+using TaskManagement.Domain.Enums;
 using TaskManagement.Domain.Extensions;
 
 namespace TaskManagement.Domain.Entities

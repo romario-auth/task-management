@@ -1,4 +1,4 @@
-﻿namespace TaskManagement.Domain.Enum
+﻿namespace TaskManagement.Domain.Enums
 {
     public enum StatusWorkItem
     {
