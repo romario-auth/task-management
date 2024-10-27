@@ -1,5 +1,4 @@
 ﻿using TaskManagement.Domain.Entities;
-using TaskManagement.Domain.Enum;
 using TaskManagement.Tests.Shared.Fixtures.Entities;
 using Xunit;
 
