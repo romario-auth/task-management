@@ -6,10 +6,12 @@ namespace TaskManagement.Domain.Entities
     public class Project : EntityBase
     {
         public string Name { get; private set; }
+        public WorkItem WorkItem { get; private set; }
 
-        public Project(string name)
+        public Project(string name, WorkItem workItem)
         {
             Name = name;
+            WorkItem = workItem;
         }
 
         public override List<string> Validate()
